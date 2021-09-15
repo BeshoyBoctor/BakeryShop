@@ -1,0 +1,63 @@
+@media screen and (max-width: 1200px) {
+  .left-nav {
+    position: relative;
+    left: 10px;
+  }
+  .first-image {
+    display: none;
+  }
+  .second-image {
+    opacity: 1;
+    width: 50%;
+  }
+  .third-image {
+    opacity: 1;
+  }
+  .right-nav {
+    display: none;
+  }
+  .nav {
+    background-color: white;
+    z-index: 9999999999;
+  }
+  .home-bio h1 {
+    font-size: 34px;
+  }
+  .home-bio {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-bio p {
+    font-size: 16px;
+  }
+  .who-image,
+  .who-bio,
+  .location-bio,
+  .loacation-image,
+  .item,
+  .container-our,
+  .contact-bio,
+  .map,
+  .about,
+  .Why,
+  .Opening,
+  .Contact {
+    width: 100%;
+  }
+  .footer-top
+  {
+    padding: 30px 0;
+    
+  }
+  .contact-content
+  {
+    margin-bottom: 60px;
+  }
+}
